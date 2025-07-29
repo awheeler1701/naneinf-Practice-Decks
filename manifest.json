@@ -5,5 +5,5 @@
 	"description": "Adds decks that use the Plasma Deck scoring & scaling, but filter out as many jokers, consumables, tags, & vouchers as possible, to make unseeded naneinf runs much easier to obtain (mostly meant for practicing White Stake Plasma Deck unseeded naneinf runs).",
 	"prefix": "naneinfPracticeDecks",
 	"main_file": "naneinfPracticeDecks.lua",
-	"version": "1.1.0"
+	"version": "1.2.0"
 }

@@ -92,9 +92,16 @@ end
 
 
 -- Load decks
-assert(SMODS.load_file('decks/naneinfminus.lua', 'naneinfPracticeDecks'))()
-assert(SMODS.load_file('decks/naneinf.lua', 'naneinfPracticeDecks'))()
-assert(SMODS.load_file('decks/naneinfplus.lua', 'naneinfPracticeDecks'))()
+local nativefs = require("nativefs")
+-- Dynamically get all files within the decks subfolder, to then load automatically
+local deck_subpath = "decks/"
+local naneinf_decks_path = SMODS.current_mod.path .. deck_subpath
+local naneinf_decks_table = nativefs.getDirectoryItems(naneinf_decks_path)
+
+for _, custom_naneinf_deck in ipairs(naneinf_decks_table) do
+    print("[nPD] Loading Deck: " .. custom_naneinf_deck)
+    assert(SMODS.load_file(deck_subpath .. custom_naneinf_deck))()
+end
 
 
 -- Done, until one of these custom decks selected

@@ -282,7 +282,7 @@ local naneinfminus = SMODS.Back {
             [2] = "score for played hand | {C:red}X2{} base Blind size",
             [3] = "{C:purple}Minimal{} \"useless\"",
             [4] = "{C:uncommon}Jokers{}, {C:tarot}Consumables{}, {C:attention}Tags{} and {C:attention}Vouchers{}",
-            [5] = "are banned, easing unseeded naneinf practice"
+            [5] = "are banned, easing unseeded naneinf runs"
         }
     }
 }

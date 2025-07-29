@@ -118,7 +118,7 @@ local naneinfplus = SMODS.Back {
             {id = 'j_certificate'},
             {id = 'j_smeared'},
             {id = 'j_throwback'},
-            {id = 'j_hanging_chad'},
+            --{id = 'j_hanging_chad'},
             {id = 'j_rough_gem'},
             --{id = 'j_bloodstone'},
             --{id = 'j_arrowhead'},
@@ -130,7 +130,7 @@ local naneinfplus = SMODS.Back {
             {id = 'j_wee'},
             {id = 'j_merry_andy'},
             --{id = 'j_oops'},
-            {id = 'j_idol'},
+            --{id = 'j_idol'},
             {id = 'j_seeing_double'},
             {id = 'j_matador'},
             {id = 'j_hit_the_road'},
@@ -282,7 +282,7 @@ local naneinfplus = SMODS.Back {
             [2] = "score for played hand | {C:red}X2{} base Blind size",
             [3] = "{X:mult,C:white}ALMOST {X:mult,C:white}ALL{} \"useless\"",
             [4] = "{C:uncommon}Jokers{}, {C:tarot}Consumables{}, {C:attention}Tags{} and {C:attention}Vouchers{}",
-            [5] = "are banned, easing unseeded naneinf practice"
+            [5] = "are banned, easing unseeded naneinf runs"
         }
     }
 }
